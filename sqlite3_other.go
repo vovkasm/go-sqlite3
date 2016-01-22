@@ -7,7 +7,7 @@
 package sqlite3
 
 /*
-#cgo CFLAGS: -I.
+#cgo CFLAGS: -I. -DHAVE_USLEEP
 #cgo linux LDFLAGS: -ldl
 */
 import "C"
